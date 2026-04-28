@@ -4,7 +4,7 @@
 
 Knowledge distillation compresses large models into small ones for edge deployment, but accuracy alone hides whether the compressed model actually reasons like its teacher. This project measures reasoning consistency directly: GradCAM saliency maps are compared between a ResNet-50 teacher (97.31% accuracy) and student variants ranging from 24× to 248× compressed, using Spearman rank correlation and IoU on the top-20% activated pixels. The central finding is that accuracy and reasoning consistency degrade at different rates under compression, and some classes show high accuracy paired with low reasoning consistency, the clearest sign of shortcut learning. Temperature turns out to be a reasoning-consistency dial more than an accuracy dial: T=2 and T=8 reach near-identical accuracy (92.40% vs 92.93%) but meaningfully different reasoning consistency (ρ=0.672 vs 0.701).
 
-## What We Found
+## Key Findings
 
 1. **Distillation improves accuracy but degrades calibration.** Distillation lifts student accuracy from 91.71% to 92.93%, a 1.22 pp gain over a cross-entropy baseline. ECE worsens from 0.0325 to 0.0442 over the same change. The teacher's confidence transfers more readily than its accuracy: 90.48% of distilled-student predictions land in the highest confidence bin (>0.933), yet accuracy there is 96.74%, against the teacher's 98.75% in the same bin.
 
