@@ -1,0 +1,21 @@
+# Data caches
+data/raw/
+data/processed/
+
+# Results — large files excluded, plots kept for README
+results/metrics/
+results/checkpoints/
+!results/plots/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Virtual environment
+.venv/
+
+# macOS
+.DS_Store
+
+data/
