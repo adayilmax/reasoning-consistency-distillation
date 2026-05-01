@@ -16,7 +16,7 @@ wheels = [
 ]
 
 [[package]]
-name = "compression-vs-reasoning"
+name = "reasoning-consistency-distillation"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [

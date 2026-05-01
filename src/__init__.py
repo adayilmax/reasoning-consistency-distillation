@@ -1,1 +1,1 @@
-"""Compression vs. Reasoning: Auditing Knowledge Distillation Beyond Accuracy."""
+"""Auditing Reasoning Consistency Under Knowledge Distillation."""

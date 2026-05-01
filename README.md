@@ -1,4 +1,4 @@
-# Compression vs. Reasoning: Auditing Knowledge Distillation Beyond Accuracy
+# Auditing Reasoning Consistency Under Knowledge Distillation
 
 *Does a compressed model get the right answer for the right reasons?*
 
